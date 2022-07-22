@@ -221,6 +221,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="dD6-q7-lqF" firstAttribute="width" secondItem="hgj-gs-4ld" secondAttribute="width" id="2M1-DS-kje"/>
+                            <constraint firstItem="dD6-q7-lqF" firstAttribute="height" secondItem="hgj-gs-4ld" secondAttribute="height" multiplier="1.67411" id="2WA-bE-vNA"/>
                             <constraint firstItem="dD6-q7-lqF" firstAttribute="height" secondItem="hgj-gs-4ld" secondAttribute="height" multiplier="1.67411" id="2m0-FL-5mG"/>
                             <constraint firstItem="MMN-Lb-RLp" firstAttribute="leading" secondItem="QpL-nq-EDJ" secondAttribute="leading" id="6aP-68-wdO"/>
                             <constraint firstItem="dD6-q7-lqF" firstAttribute="height" secondItem="hgj-gs-4ld" secondAttribute="height" multiplier="1.67411" id="931-6Q-x8w"/>
@@ -228,8 +229,10 @@
                             <constraint firstItem="dD6-q7-lqF" firstAttribute="height" secondItem="hgj-gs-4ld" secondAttribute="height" multiplier="1.67411" id="FDE-dm-OMC"/>
                             <constraint firstItem="dD6-q7-lqF" firstAttribute="height" secondItem="hgj-gs-4ld" secondAttribute="height" multiplier="1.67411" id="HDZ-VF-tqu"/>
                             <constraint firstItem="dD6-q7-lqF" firstAttribute="height" secondItem="hgj-gs-4ld" secondAttribute="height" multiplier="1.67411" id="HuQ-jQ-REI"/>
+                            <constraint firstItem="dD6-q7-lqF" firstAttribute="width" secondItem="hgj-gs-4ld" secondAttribute="width" id="L8t-Y4-yp0"/>
                             <constraint firstAttribute="bottom" secondItem="MMN-Lb-RLp" secondAttribute="bottom" id="Qaf-Uh-PM1"/>
                             <constraint firstItem="MMN-Lb-RLp" firstAttribute="trailing" secondItem="QpL-nq-EDJ" secondAttribute="trailing" id="SwD-Wk-oq7"/>
+                            <constraint firstItem="dD6-q7-lqF" firstAttribute="height" secondItem="hgj-gs-4ld" secondAttribute="height" multiplier="1.67411" id="VEI-QY-5Nb"/>
                             <constraint firstItem="dD6-q7-lqF" firstAttribute="width" secondItem="hgj-gs-4ld" secondAttribute="width" id="rqf-r8-UKT"/>
                             <constraint firstItem="MMN-Lb-RLp" firstAttribute="top" secondItem="hgj-gs-4ld" secondAttribute="top" id="t4N-wf-GJl"/>
                             <constraint firstItem="dD6-q7-lqF" firstAttribute="width" secondItem="hgj-gs-4ld" secondAttribute="width" id="v4N-HC-VfL"/>
@@ -472,6 +475,7 @@
                             <constraint firstItem="6sw-j4-0dw" firstAttribute="width" secondItem="V5o-Tu-JHe" secondAttribute="width" id="2cn-a8-T2j"/>
                             <constraint firstItem="TzJ-xc-EEf" firstAttribute="top" secondItem="V5o-Tu-JHe" secondAttribute="top" id="4Zn-hX-FdC"/>
                             <constraint firstItem="TzJ-xc-EEf" firstAttribute="trailing" secondItem="Hl3-o0-NZm" secondAttribute="trailing" id="FZ9-RX-v6A"/>
+                            <constraint firstItem="6sw-j4-0dw" firstAttribute="height" secondItem="V5o-Tu-JHe" secondAttribute="height" multiplier="1.78571" id="JxW-yK-K6f"/>
                             <constraint firstItem="TzJ-xc-EEf" firstAttribute="leading" secondItem="Hl3-o0-NZm" secondAttribute="leading" id="cHL-n6-oK1"/>
                             <constraint firstItem="6sw-j4-0dw" firstAttribute="height" secondItem="V5o-Tu-JHe" secondAttribute="height" multiplier="1.78571" id="wey-4m-G3g"/>
                             <constraint firstItem="6sw-j4-0dw" firstAttribute="height" secondItem="V5o-Tu-JHe" secondAttribute="height" multiplier="1.78571" id="y89-cw-Ois"/>
@@ -514,52 +518,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W71-q9-E38">
-                                <rect key="frame" x="20" y="313" width="335" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2op-2L-Tff">
-                                <rect key="frame" x="20" y="370" width="335" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SYp-v0-8t3">
-                                <rect key="frame" x="20" y="429" width="335" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3s-9w-Mr9">
-                                <rect key="frame" x="20" y="553" width="335" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Roe v. Wade Turnover's Impact" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsR-Bo-fJ4">
-                                <rect key="frame" x="20" y="480" width="350" height="65"/>
+                                <rect key="frame" x="20" y="512" width="350" height="65"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qkE-b0-CQf">
-                                <rect key="frame" x="20" y="612" width="335" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ber-Q8-QZP">
-                                <rect key="frame" x="20" y="667" width="335" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -598,10 +560,68 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4j-q7-BdL">
+                                <rect key="frame" x="20" y="585" width="374" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="What Does the End of Roe Mean? Key Questions and Answers. (by NYT)">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.56862747670000002" green="0.76862752440000004" blue="0.74901962280000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="firstArticleButton:" destination="5pr-7V-AnN" eventType="touchUpInside" id="qED-bs-LK3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2m1-Vm-6df">
+                                <rect key="frame" x="20" y="707" width="374" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Global 20th-Century Atrocities Highlight the Dangers of a Post-Roe America (by MsMagazine)">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.91372549530000002" green="0.8156862855" blue="0.77647060160000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="secondArticleButton:" destination="5pr-7V-AnN" eventType="touchUpInside" id="B1S-TZ-n2Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAv-tq-SlD">
+                                <rect key="frame" x="20" y="310" width="374" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="What Are the Types of Abortion Procedures? (by WebMD)">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.56862747670000002" green="0.76862752440000004" blue="0.74901962280000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="thirdArticleButton:" destination="5pr-7V-AnN" eventType="touchUpInside" id="dxk-qt-a9z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9Z-iT-mCq">
+                                <rect key="frame" x="20" y="411" width="374" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="What Happens (by NHS UK)">
+                                    <fontDescription key="titleFontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.91372549530000002" green="0.8156862855" blue="0.77647060160000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="fourthArticleButton:" destination="5pr-7V-AnN" eventType="touchUpInside" id="sbv-6f-cfm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Xve-hC-mOg"/>
                         <color key="backgroundColor" red="0.92941176889999999" green="0.95686274770000002" blue="0.97647058959999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="fourthArticle" destination="O9Z-iT-mCq" id="oXA-vt-hsG"/>
+                        <outlet property="nytArticle" destination="b4j-q7-BdL" id="9ow-TX-sr4"/>
+                        <outlet property="secondArticle" destination="2m1-Vm-6df" id="QoZ-8g-puW"/>
+                        <outlet property="thirdArticle" destination="QAv-tq-SlD" id="SUi-tf-d2U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uNI-g2-Vh2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -748,7 +768,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="1Ww-vo-0Fg"/>
-        <segue reference="8nD-Pt-fne"/>
+        <segue reference="DiG-As-13h"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
