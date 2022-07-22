@@ -477,6 +477,7 @@
                             <constraint firstItem="TzJ-xc-EEf" firstAttribute="trailing" secondItem="Hl3-o0-NZm" secondAttribute="trailing" id="FZ9-RX-v6A"/>
                             <constraint firstItem="6sw-j4-0dw" firstAttribute="height" secondItem="V5o-Tu-JHe" secondAttribute="height" multiplier="1.78571" id="JxW-yK-K6f"/>
                             <constraint firstItem="TzJ-xc-EEf" firstAttribute="leading" secondItem="Hl3-o0-NZm" secondAttribute="leading" id="cHL-n6-oK1"/>
+                            <constraint firstItem="6sw-j4-0dw" firstAttribute="height" secondItem="V5o-Tu-JHe" secondAttribute="height" multiplier="1.78571" id="rmz-Oh-AvJ"/>
                             <constraint firstItem="6sw-j4-0dw" firstAttribute="height" secondItem="V5o-Tu-JHe" secondAttribute="height" multiplier="1.78571" id="wey-4m-G3g"/>
                             <constraint firstItem="6sw-j4-0dw" firstAttribute="height" secondItem="V5o-Tu-JHe" secondAttribute="height" multiplier="1.78571" id="y89-cw-Ois"/>
                         </constraints>
@@ -768,7 +769,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="1Ww-vo-0Fg"/>
-        <segue reference="DiG-As-13h"/>
+        <segue reference="WUD-0x-XYY"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
